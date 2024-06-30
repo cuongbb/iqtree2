@@ -6108,7 +6108,7 @@ void usage_iqtree(char* argv[], bool full_command) {
     << "             Protein:  LG (default), Poisson, cpREV, mtREV, Dayhoff, mtMAM," << endl
     << "                       JTT, WAG, mtART, mtZOA, VT, rtREV, DCMut, PMB, HIVb," << endl
     << "                       HIVw, JTTDCMut, FLU, Blosum62, GTR20, mtMet, mtVer, mtInv, FLAVI," << endl
-    << "			Q.LG, Q.pfam, Q.pfam_gb, Q.bird, Q.mammal, Q.insect, Q.plant, Q.yeast, Q.bac, NQ.bac" << endl
+    << "			Q.LG, Q.pfam, Q.pfam_gb, Q.bird, Q.mammal, Q.insect, Q.plant, Q.yeast, Q.bac" << endl
     << "     Protein mixture:  C10,...,C60, EX2, EX3, EHO, UL2, UL3, EX_EHO, LG4M, LG4X, nT4M, nT4X" << endl
     << "              Binary:  JC2 (default), GTR2" << endl
     << "     Empirical codon:  KOSI07, SCHN05" << endl
@@ -6123,7 +6123,7 @@ void usage_iqtree(char* argv[], bool full_command) {
     << "                       10.34, 12.12 (optionally prefixed by RY, WS or MK)" << endl
     << "      Non-reversible:  STRSYM (strand symmetric model, equiv. WS6.6)," << endl
     << "                       NONREV, UNREST (unrestricted model, equiv. 12.12)" << endl
-    << "                       NQ.pfam, NQ.bird, NQ.mammal, NQ.insect, NQ.plant, NQ.yeast" << endl
+    << "                       NQ.pfam, NQ.bird, NQ.mammal, NQ.insect, NQ.plant, NQ.yeast, NQ.bac" << endl
     << "           Otherwise:  Name of file containing user-model parameters" << endl
     << endl << "STATE FREQUENCY:" << endl
     << "  -m ...+F             Empirically counted frequencies from alignment" << endl
