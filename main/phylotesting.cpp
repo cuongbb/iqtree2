@@ -123,12 +123,13 @@ const char *dna_model_names_lie_markov_strsym[] = {
 
 
 /****** Protein model set ******/
-const char* aa_model_names[] = {"LG", "WAG", "JTT", "Q.pfam", "Q.bird", "Q.mammal", "Q.insect", "Q.plant", "Q.yeast", "JTTDCMut", "DCMut", "VT", "PMB", "Blosum62", "Dayhoff",
+const char* aa_model_names[] = {"LG", "WAG", "JTT", "Q.pfam", "Q.bird", "Q.mammal", "Q.insect", "Q.plant", "Q.yeast", "Q.bac", "JTTDCMut", "DCMut", "VT", "PMB", "Blosum62", "Dayhoff",
         "mtREV", "mtART", "mtZOA", "mtMet" , "mtVer" , "mtInv", "mtMAM", "FLAVI",
-		"HIVb", "HIVw", "FLU", "rtREV", "cpREV"};
+		"HIVb", "HIVw", "FLU", "rtREV", "cpREV",
+		"NQ.pfam", "NQ.bird", "NQ.mammal", "NQ.insect", "NQ.plant", "NQ.yeast", "NQ.bac"};
 
 /****** Protein mixture model set ******/
-const char* aa_mixture_model_names[] = {"C10", "C20", "C30", "C40", "C50", "C60", "EX2", "EX3", "EHO", "UL2", "UL3", "EX_EHO", "LG4M", "LG4X", "CF4"};
+const char* aa_mixture_model_names[] = {"C10", "C20", "C30", "C40", "C50", "C60", "EX2", "EX3", "EHO", "UL2", "UL3", "EX_EHO", "LG4M", "LG4X", "nT4M", "nT4X", "CF4"};
 
 /* Protein models supported by PhyML/PartitionFinder */
 const char *aa_model_names_phyml[] = {"LG", "WAG", "JTT", "DCMut", "VT", "Blosum62", "Dayhoff",
