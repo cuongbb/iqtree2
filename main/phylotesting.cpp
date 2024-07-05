@@ -1049,7 +1049,6 @@ void getModelSubst(SeqType seq_type, bool standard_code, string model_name,
     } else if (seq_type == SEQ_PROTEIN) {
         if (model_set.empty()) {
             copyCString(aa_model_names, sizeof(aa_model_names) / sizeof(char*), model_names);
-	    appendCString(aa_mixture_model_names, sizeof(aa_mixture_model_names) / sizeof(char*), model_names);
         } else if (model_set == "partitionfinder" || model_set == "phyml") {
             copyCString(aa_model_names_phyml, sizeof(aa_model_names_phyml) / sizeof(char*), model_names);
         } else if (model_set == "raxml") {
